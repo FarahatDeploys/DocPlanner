@@ -1,0 +1,258 @@
+body {
+  font-weight: 400;
+  margin: 0;
+  font-family: Roboto, Ariel, sans-serif;
+  /* this makes the color of the text not background */
+  color: #747474;
+
+  /* this makes a pdding for the whole webpage   */
+  padding-top: 70px;
+}
+.Main-Header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1024;
+  /* you can put an arbitrary border to show you how things occur inside your elements */
+}
+.Main-Header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 0;
+  background-color: white;
+  padding: 0 20px;
+}
+.logo-docplanner {
+  width: 268px;
+  height: 33px;
+}
+
+.Motto-Section {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+}
+.main-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: space-evenly;
+}
+
+.main-menu li {
+  margin: 20px;
+}
+.main-menu ul {
+  display: flex;
+  flex-direction: row;
+
+  align-items: flex-end;
+}
+.main-menu a {
+  text-decoration: none;
+}
+
+.main-menu {
+  padding: 0px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.Motto-Section-1 {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.lead__logo {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 40px;
+  height: 39px;
+}
+.grid {
+}
+.patients-doc-clinics .container {
+  display: flex;
+  flex-direction: row;
+  max-width: 900px;
+  margin: 0 auto;
+}
+.slogan {
+  max-width: 1300px;
+  margin: auto;
+}
+.grid {
+}
+.col-2 {
+  margin: 20px;
+}
+.patients-doc-clinics {
+  display: flex;
+  padding: 0 200px;
+  justify-content: space-evenly;
+  color: white;
+}
+
+.patients-doc-clinics li {
+  list-style: none;
+}
+.patients-doc-clinics ul {
+  padding: 0px;
+}
+.patients {
+  background-color: #00ccb1;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 10px;
+}
+.doc {
+  background-color: #3d83df;
+  border-radius: 15px;
+  padding-left: 20px;
+  margin: 10px;
+}
+.clinics {
+  background-color: #1b2734;
+  border-radius: 15px;
+  padding-left: 20px;
+  margin: 10px;
+}
+.brands_section_inner {
+  display: flex;
+  flex-direction: row;
+  padding-left: 140px;
+  padding-right: 140px;
+}
+.brands_section_inner h1 {
+  color: #00b39b;
+  font-size: 1.625em;
+}
+
+.brands__logos {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  align-items: center;
+  width: 67%;
+  list-style: none;
+}
+.brands__logos li {
+  font-size: 1rem;
+  width: 160px;
+  margin: 1rem;
+}
+.brands__logos a path {
+  fill: #747474;
+}
+.brands__logos a img {
+  fill: #747474;
+  color: #747474;
+}
+.brands__logos a {
+  fill: #747474;
+  color: #747474;
+  filter: grayscale();
+}
+.brands__logos li svg {
+  height: 20px;
+  width: auto;
+}
+.domain-switcher {
+  margin-top: 100px;
+}
+.stats {
+  background-color: #e5faf8;
+  padding: 90px 0;
+  height: fit-content;
+  background-image: url(https://www.docplanner.com/img/logo.png);
+  background-repeat: no-repeat;
+  background-position-y: 140%;
+}
+.section_inner .grid .stats_header {
+  display: grid;
+  width: 50%;
+}
+.section_inner .grid .stats_header p {
+  margin: 1.6 0em;
+}
+.stats .section_inner {
+  display: flex;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.stats .section_inner h1 {
+  color: #00b39b;
+}
+
+.stats .card-wrapper {
+  width: 50%;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 300px);
+  grid-template-rows: repeat(2, 250px);
+  grid-gap: 15px;
+}
+.stats .card-item {
+  border-radius: 10px;
+  padding: 20px;
+  background-color: white;
+}
+.stats .card-item:nth-last-of-type(even) {
+  transform: translateY(-20px);
+}
+.offices {
+  margin-top: 5.5rem;
+  margin-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+}
+.offices_header {
+  display: flex;
+  flex-direction: column;
+  max-width: 460px;
+  margin: 0 auto;
+  text-align: center;
+}
+.offices_around_theworld {
+  display: grid;
+  grid-template-columns: repeat(3, 320px);
+  grid-gap: 40px;
+  justify-content: center;
+}
+.offices_header h1 {
+  color: #00b39b;
+}
+
+.offices_around_theworld .office__inner {
+  display: flex;
+  flex-direction: column;
+}
+.office__image {
+  margin: 0px;
+}
+.office__desc {
+  display: flex;
+  text-decoration: none;
+  color: #747474;
+  padding: 10px 10px 0px 10px;
+  padding-left: 0px;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn--small {
+  background-color: rgb(49, 49, 218);
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+}
+.office__desc .btn {
+  text-decoration: none;
+}
+.office__inner {
+  text-decoration: none;
+}
